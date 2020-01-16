@@ -1,0 +1,17 @@
+.admin {
+  display: flex;
+  justify-content: center;
+
+  color: #14171a;
+  font-weight: bold;
+}
+
+/* .icon {
+  position: relative;
+} */
+
+.aside-nav,
+.suggestions {
+  position: fixed;
+  width: 20vw;
+}

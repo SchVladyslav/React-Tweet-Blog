@@ -1,0 +1,12 @@
+.form__item + .form__item {
+  margin-top: 0px;
+}
+
+.main-back {
+  align-self: flex-start;
+}
+
+.alert-error {
+  color: red;
+  border-bottom: red;
+}
