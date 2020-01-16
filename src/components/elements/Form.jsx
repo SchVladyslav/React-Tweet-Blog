@@ -27,11 +27,12 @@ export default class Form extends Component {
   }
 
   handleUserInput(e) {
-    const name = e.target.name;
-    const value = e.target.value;
+    const { name } = e.target;
+    const { value } = e.target;
     this.setState({ [name]: value }, () => {
       this.validateFields(name, value);
     });
+    console.log(this.state);
   }
 
   errorClass(error) {
