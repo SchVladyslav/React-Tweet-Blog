@@ -109,9 +109,9 @@ export default class Form extends Component {
           >
             <Input
               className=""
-              type={"text"}
-              placeholder={"First Name"}
-              name={"firstName"}
+              type="text"
+              placeholder="First Name"
+              name="firstName"
               value={this.state.firstName}
               handleChange={event => this.handleUserInput(event)}
             />
@@ -125,9 +125,9 @@ export default class Form extends Component {
           >
             <Input
               className=""
-              type={"text"}
-              placeholder={"Last Name"}
-              name={"lastName"}
+              type="text"
+              placeholder="Last Name"
+              name="lastName"
               value={this.state.lastName}
               handleChange={event => this.handleUserInput(event)}
             />
@@ -141,9 +141,9 @@ export default class Form extends Component {
           >
             <Input
               className="input__email"
-              type={"email"}
-              placeholder={"E-mail"}
-              name={"email"}
+              type="email"
+              placeholder="E-mail"
+              name="email"
               value={this.state.email}
               handleChange={event => this.handleUserInput(event)}
             />
@@ -157,9 +157,9 @@ export default class Form extends Component {
           >
             <Input
               className="input__password"
-              type={"password"}
-              placeholder={"Password"}
-              name={"password"}
+              type="password"
+              placeholder="Password"
+              name="password"
               value={this.state.password}
               handleChange={event => this.handleUserInput(event)}
             />
@@ -195,7 +195,7 @@ export default class Form extends Component {
         <Button
           name="Sign Up"
           className="button"
-          type={"submit"}
+          type="submit"
           buttonState={this.state.formValid}
         />
       </form>
